@@ -1,0 +1,29 @@
+// crie 4 variaveis com os tipos adequados para guaradar valores nome sobrenome e peso
+
+void main() {
+String name;
+String sobrenome;
+double peso;
+int idade;
+  
+  name = "kalleb";
+  
+  sobrenome = "vieira";
+  
+  idade = 20;
+  
+  peso = 75;
+  
+  saudacao(name, sobrenome,idade, peso);
+  
+}
+
+void saudacao(name,sobrenome, idade, peso){
+  
+  print("OLA seja bem vindo");
+  print("Nome : $name" );
+  print("Sobrenome:  $sobrenome");
+  print("Idade: $idade");
+  print("Peso: $peso");
+  
+}
