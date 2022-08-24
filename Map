@@ -1,0 +1,31 @@
+void main() {
+ //List<String> lista = ['kalleb', 'david'];
+  
+  
+  
+ // . chave    valor
+  Map<String, String> mapa = {'chave': 'valor'};
+  print(mapa['chave']);
+  
+  // metodo para adção em dart
+  mapa.putIfAbsent('novaChave', () => 'novoValor');
+  print(mapa['novaChave']);
+  
+  // incerindo de foema manual direto de uma chave
+  mapa['novaChave2'] = 'novoValor2';
+  print(mapa);
+  
+  mapa.remove('chave');
+  
+  print(mapa);
+  
+  mapa.update('novaChave2', (value) => 'atualizado2');
+   print(mapa);
+  
+  // printando todos os objetos dentro do mapa
+  mapa.forEach((chave, valor) => print(" ha chave e $chave , Eo valor e $valor"));
+  
+  mapa.keys.forEach(print);
+}
+
+
