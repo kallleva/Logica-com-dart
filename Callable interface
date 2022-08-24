@@ -1,0 +1,21 @@
+
+
+void main() {
+  
+ // para melhor semantica do codigo e correto ultilizar o calleble interface
+ // melhorando o entendimento e a fluides de nosso codigo
+  
+  BuscarAluno buscarAluno = BuscarAluno();
+  buscarAluno();
+  
+  
+
+}
+
+class BuscarAluno{
+  void call() => print("devid, kaleb, joao"); /// call ->  calleble interface
+}
+
+
+
+
